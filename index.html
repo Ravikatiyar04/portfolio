@@ -54,6 +54,7 @@
                 box-sizing: border-box
             }
 
+
             :root {
                 -webkit-font-smoothing: antialiased;
                 -moz-osx-font-smoothing: grayscale
@@ -83,12 +84,16 @@
                 --token-3cbaad9d-c038-49d8-b018-dd843412fcd2: rgb(0, 0, 0)
             }
 
+            #__framer-editorbar.mode_normal[width] {
+                display: none;
+            }
+
             #__framer-badge-container {
                 position: fixed;
                 bottom: 0;
                 padding: 20px;
                 width: 100%;
-                display: flex;
+                display: none;
                 justify-content: right;
                 pointer-events: none;
                 z-index: 314159
