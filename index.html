@@ -2701,22 +2701,9 @@
                 --token-3cbaad9d-c038-49d8-b018-dd843412fcd2: #000
             }
 
-            @supports (z-index: calc(infinity)) {
-                #__framer-badge-container {
-                    --infinity:infinity
-                }
-            }
+            
 
-            #__framer-badge-container {
-                pointer-events: none;
-                width: 100%;
-                z-index: calc(var(--infinity,2147480000));
-                justify-content: flex-end;
-                padding: 20px;
-                display: flex;
-                position: fixed;
-                bottom: 0
-            }
+            
 
             @supports (background: -webkit-named-image(i)) and (not (grid-template-rows:subgrid)) {
                 body {
